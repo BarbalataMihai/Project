@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/css/contact.css")" />
+
+<div><h2>Rat Craiova</h2> <p><strong> Contact</strong> </p> </div>
+<div class="contact">
+    <table style="width: 70%;">
+        <tr>
+            <th>Phone</th>
+            <th>Fax</th>
+            <th>Email</th>
+            <th>Adress</th>
+        </tr>
+        <tr>
+            <td>0251/4091</td>
+            <td>0251/5071</td>
+            <td><a href="mailto:office@craiova-rat.ro">office@craiova-rat.ro</a></td>
+            <td>Calea Severinului nr 103</td>
+        </tr>
+    </table>
+</div>
+<img src="~/img/harta.png" alt="harta">
+
+<form class="my-form">
+    <!--to colect user input-->
+    <div class="form-group">
+        <label> Name: </label>
+        <input type="text" name="name">
+    </div>
+    <div class="form-group">
+        <label> Email: </label>
+        <input type="text" name="email">
+    </div>
+    <div class="form-group">
+        <label> Phone: </label>
+        <input type="text" name="phone">
+    </div>
+    <div class="form-group">
+        <label> Subject: </label>
+        <input type="text" name="subject">
+    </div>
+    <div class="form-group">
+        <label> Message: </label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+    </div>
+    <input class="button" type="submit" value="Submit" name="">
+</form>

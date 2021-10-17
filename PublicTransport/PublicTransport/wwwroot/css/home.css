@@ -1,0 +1,40 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rat {
+    margin-left: 300px;
+    height: 200px;
+}
+body {
+    background: url(/img/autobuz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.autobuz {
+    width: 1300px;
+    height: 700px;
+    padding-left: 20px;
+}
+.emblema {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+h3 {
+    padding-left: 15px;
+}
+
+.Work h3 {
+    padding-left: 15px;
+}
+
+.Work p {
+    padding-left: 15px;
+}
+

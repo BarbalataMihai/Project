@@ -1,0 +1,24 @@
+﻿h2 {
+    padding-left: 20px;
+}
+body{
+    background-color:powderblue;
+}
+h1 {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.historic {
+    padding: 100px;
+}
+
+img {
+    width: 600px;
+    float: right;
+}

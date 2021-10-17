@@ -1,0 +1,44 @@
+﻿@model PublicTransport.Models.Ticket
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/css/ticket.css")" />
+<h1>Edit</h1>
+
+<h4>Ticket</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4 offset-md-3">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Ticid" />
+            <div class="form-group">
+                <label asp-for="Tic_name" class="control-label"></label>
+                <input asp-for="Tic_name" class="form-control" />
+                <span asp-validation-for="Tic_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Travels" class="control-label"></label>
+                <input asp-for="Travels" class="form-control" />
+                <span asp-validation-for="Travels" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

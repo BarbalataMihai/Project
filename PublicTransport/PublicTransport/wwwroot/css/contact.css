@@ -1,0 +1,56 @@
+﻿.contact {
+    padding-top: 30%;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+td {
+    text-align: center;
+    padding-left: 20px;
+}
+th{
+    padding-left:20px;
+}
+
+body {
+    background-image: url(/img/pexels-will-mu-3802736.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+img {
+    padding-top: 30px;
+    padding-left: 300px;
+    width: 700px;
+}
+
+.my-form {
+    padding: 20px;
+    width: 100%;
+}
+
+    .my-form .form-group {
+        padding-bottom: 15px;
+        color: #fff;
+    }
+
+    .my-form label {
+        display: block; /*to put on a new line */
+    }
+
+    .my-form input {
+        padding: 8px;
+        width: 15%;
+    }
+
+.button {
+    font-size: 20px;
+}
