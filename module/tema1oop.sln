@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tema1oop", "tema1oop\tema1oop.pyproj", "{2D986EB4-81F9-411A-BF13-C7AFE61C1F06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D986EB4-81F9-411A-BF13-C7AFE61C1F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D986EB4-81F9-411A-BF13-C7AFE61C1F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C03545B3-2444-49CF-969D-7202C541ADB8}
+	EndGlobalSection
+EndGlobal
