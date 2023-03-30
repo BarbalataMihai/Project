@@ -1,0 +1,56 @@
+﻿body {
+    background: url(/img/users.png) no-repeat;
+    background-size: 100%;
+}
+.btn {
+    width: 55%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blue, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.col-md-12 {
+    max-width: 400px;
+    min-height: 400px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin: 20px auto 0 auto;
+    padding: 25px;
+    color: #414141;
+}
+
+.form-control {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin: 14px auto;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-control {
+    outline: 0;
+    border-color: #f9cb81;
+}
+
+.form-control {
+    border-color: #e41b17;
+}
+
+.form-title {
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+
+    .form-title h2 {
+        color: #5c86e1;
+    }

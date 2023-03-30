@@ -1,0 +1,26 @@
+﻿
+<form asp-controller="Home" asp-action="Send" method="post" >
+        <div class="mb-3">
+            <label for="roles" class="form-label" >Groups</label>
+            <select class="form-select" aria-label="Groups" name="groupId" id="roles">
+                @{
+                    var groups = ViewBag.roles;
+                    foreach(var group in groups)
+                    {
+                        <option value="@group">@group</option>
+                    }
+                }
+            </select>
+        </div>
+    
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="submit" >
+              Notify
+             </button>
+  
+        </div>
+</form>
